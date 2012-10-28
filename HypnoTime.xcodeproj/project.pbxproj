@@ -13,6 +13,8 @@
 		EF4DE694163DB8A800B71754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4DE692163DB8A800B71754 /* InfoPlist.strings */; };
 		EF4DE696163DB8A900B71754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE695163DB8A900B71754 /* main.m */; };
 		EF4DE69A163DB8A900B71754 /* hypnosisterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE699163DB8A900B71754 /* hypnosisterAppDelegate.m */; };
+		EF4DE6A2163DB8E700B71754 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE6A1163DB8E700B71754 /* HypnosisViewController.m */; };
+		EF4DE6B1163DBA2C00B71754 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE6B0163DBA2C00B71754 /* HypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EF4DE697163DB8A900B71754 /* HypnoTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HypnoTime-Prefix.pch"; sourceTree = "<group>"; };
 		EF4DE698163DB8A900B71754 /* hypnosisterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hypnosisterAppDelegate.h; sourceTree = "<group>"; };
 		EF4DE699163DB8A900B71754 /* hypnosisterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hypnosisterAppDelegate.m; sourceTree = "<group>"; };
+		EF4DE6A0163DB8E700B71754 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		EF4DE6A1163DB8E700B71754 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		EF4DE6AF163DBA2C00B71754 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		EF4DE6B0163DBA2C00B71754 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,10 @@
 		EF4DE67A163DB8A800B71754 = {
 			isa = PBXGroup;
 			children = (
+				EF4DE6AF163DBA2C00B71754 /* HypnosisView.h */,
+				EF4DE6B0163DBA2C00B71754 /* HypnosisView.m */,
+				EF4DE6A0163DB8E700B71754 /* HypnosisViewController.h */,
+				EF4DE6A1163DB8E700B71754 /* HypnosisViewController.m */,
 				EF4DE68F163DB8A800B71754 /* HypnoTime */,
 				EF4DE688163DB8A800B71754 /* Frameworks */,
 				EF4DE686163DB8A800B71754 /* Products */,
@@ -155,6 +165,8 @@
 			files = (
 				EF4DE696163DB8A900B71754 /* main.m in Sources */,
 				EF4DE69A163DB8A900B71754 /* hypnosisterAppDelegate.m in Sources */,
+				EF4DE6A2163DB8E700B71754 /* HypnosisViewController.m in Sources */,
+				EF4DE6B1163DBA2C00B71754 /* HypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
