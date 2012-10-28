@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Joe Coleman. All rights reserved.
 //
 
-#import "hypnosisterAppDelegate.h"
+#import "HypnoAppDelegate.h"
 
-@implementation hypnosisterAppDelegate
+@implementation HypnoAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

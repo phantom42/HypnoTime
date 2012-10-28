@@ -12,7 +12,7 @@
 		EF4DE68E163DB8A800B71754 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DE68D163DB8A800B71754 /* CoreGraphics.framework */; };
 		EF4DE694163DB8A800B71754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4DE692163DB8A800B71754 /* InfoPlist.strings */; };
 		EF4DE696163DB8A900B71754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE695163DB8A900B71754 /* main.m */; };
-		EF4DE69A163DB8A900B71754 /* hypnosisterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE699163DB8A900B71754 /* hypnosisterAppDelegate.m */; };
+		EF4DE69A163DB8A900B71754 /* HypnoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE699163DB8A900B71754 /* HypnoAppDelegate.m */; };
 		EF4DE6A2163DB8E700B71754 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE6A1163DB8E700B71754 /* HypnosisViewController.m */; };
 		EF4DE6B1163DBA2C00B71754 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE6B0163DBA2C00B71754 /* HypnosisView.m */; };
 /* End PBXBuildFile section */
@@ -26,8 +26,8 @@
 		EF4DE693163DB8A800B71754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF4DE695163DB8A900B71754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF4DE697163DB8A900B71754 /* HypnoTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HypnoTime-Prefix.pch"; sourceTree = "<group>"; };
-		EF4DE698163DB8A900B71754 /* hypnosisterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hypnosisterAppDelegate.h; sourceTree = "<group>"; };
-		EF4DE699163DB8A900B71754 /* hypnosisterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hypnosisterAppDelegate.m; sourceTree = "<group>"; };
+		EF4DE698163DB8A900B71754 /* HypnoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HypnoAppDelegate.h; sourceTree = "<group>"; };
+		EF4DE699163DB8A900B71754 /* HypnoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoAppDelegate.m; sourceTree = "<group>"; };
 		EF4DE6A0163DB8E700B71754 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
 		EF4DE6A1163DB8E700B71754 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
 		EF4DE6AF163DBA2C00B71754 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 		EF4DE68F163DB8A800B71754 /* HypnoTime */ = {
 			isa = PBXGroup;
 			children = (
-				EF4DE698163DB8A900B71754 /* hypnosisterAppDelegate.h */,
-				EF4DE699163DB8A900B71754 /* hypnosisterAppDelegate.m */,
+				EF4DE698163DB8A900B71754 /* HypnoAppDelegate.h */,
+				EF4DE699163DB8A900B71754 /* HypnoAppDelegate.m */,
 				EF4DE690163DB8A800B71754 /* Supporting Files */,
 			);
 			path = HypnoTime;
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4DE696163DB8A900B71754 /* main.m in Sources */,
-				EF4DE69A163DB8A900B71754 /* hypnosisterAppDelegate.m in Sources */,
+				EF4DE69A163DB8A900B71754 /* HypnoAppDelegate.m in Sources */,
 				EF4DE6A2163DB8E700B71754 /* HypnosisViewController.m in Sources */,
 				EF4DE6B1163DBA2C00B71754 /* HypnosisView.m in Sources */,
 			);
