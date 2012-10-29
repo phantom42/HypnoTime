@@ -10,7 +10,8 @@
 
 @interface TimeViewController : UIViewController
 {
-    IBOutlet UILabel *timeLabel ;
+    // set this as weak so it auto-unloads when the view is unloaded
+    __weak IBOutlet UILabel *timeLabel ;
 }
 - (IBAction)showCurrentTime:(id)sender ;
 @end

@@ -43,6 +43,7 @@
         UIImage *i = [UIImage imageNamed:@"Time.png"] ;
         // put the image on the tab bar item
         [tbi setImage:i] ;
+        
     }
     
     return self ;
@@ -53,6 +54,20 @@
     [super viewDidLoad] ;
     
     NSLog(@"TimeViewController loaded its view.") ;
+    
+    [[self view] setBackgroundColor:[UIColor greenColor]] ;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@"CurrentTimeViewController will appear") ;
+    [super viewWillAppear:animated] ;
+    [self showCurrentTime:nil] ;
+    
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    NSLog(@"CurrentTimeViewController will DISappear") ;
+    [super viewWillDisappear:animated] ;
+}
 @end
