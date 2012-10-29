@@ -21,9 +21,15 @@
 
 - (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle
 {
-    // call the superclass's designated initializer
-    self = [super initWithNibName:nil
-                           bundle:nil] ;
+    // get a pointer to the application bundle object
+    // Returns the NSBundle object that corresponds to the directory
+    // where the current application executable is located.
+    NSBundle *appBundle = [NSBundle mainBundle] ;
+    
+    // using nil would make it search specifically for TimeViewController.xib
+    // or you can set this explicitly 
+    self = [super initWithNibName:@"TimeViewController"
+                           bundle:appBundle] ;
     
     if (self) {
         // get the tab bar item
@@ -40,6 +46,13 @@
     }
     
     return self ;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad] ;
+    
+    NSLog(@"TimeViewController loaded its view.") ;
 }
 
 @end

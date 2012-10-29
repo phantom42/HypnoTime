@@ -43,4 +43,11 @@
     return self ;
 }
 
+- (void)viewDidLoad
+{
+    // always call the super implementation of viewDidLoad
+    [super viewDidLoad] ;
+    
+    NSLog(@"HypnosisViewController loaded its view.") ;
+}
 @end
