@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF35CB87163EC373002243AA /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF35CB86163EC373002243AA /* TimeViewController.xib */; };
+		EF35CB8A163EC45F002243AA /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF35CB89163EC45F002243AA /* TimeViewController.m */; };
 		EF4DE68A163DB8A800B71754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DE689163DB8A800B71754 /* UIKit.framework */; };
 		EF4DE68C163DB8A800B71754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DE68B163DB8A800B71754 /* Foundation.framework */; };
 		EF4DE68E163DB8A800B71754 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DE68D163DB8A800B71754 /* CoreGraphics.framework */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF35CB86163EC373002243AA /* TimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
+		EF35CB88163EC45F002243AA /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		EF35CB89163EC45F002243AA /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
 		EF4DE685163DB8A800B71754 /* HypnoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4DE689163DB8A800B71754 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF4DE68B163DB8A800B71754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,6 +56,9 @@
 		EF4DE67A163DB8A800B71754 = {
 			isa = PBXGroup;
 			children = (
+				EF35CB86163EC373002243AA /* TimeViewController.xib */,
+				EF35CB88163EC45F002243AA /* TimeViewController.h */,
+				EF35CB89163EC45F002243AA /* TimeViewController.m */,
 				EF4DE6AF163DBA2C00B71754 /* HypnosisView.h */,
 				EF4DE6B0163DBA2C00B71754 /* HypnosisView.m */,
 				EF4DE6A0163DB8E700B71754 /* HypnosisViewController.h */,
@@ -153,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4DE694163DB8A800B71754 /* InfoPlist.strings in Resources */,
+				EF35CB87163EC373002243AA /* TimeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 				EF4DE69A163DB8A900B71754 /* HypnoAppDelegate.m in Sources */,
 				EF4DE6A2163DB8E700B71754 /* HypnosisViewController.m in Sources */,
 				EF4DE6B1163DBA2C00B71754 /* HypnosisView.m in Sources */,
+				EF35CB8A163EC45F002243AA /* TimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +284,7 @@
 				EF4DE69F163DB8A900B71754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
