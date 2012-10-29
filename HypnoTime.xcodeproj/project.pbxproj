@@ -13,6 +13,8 @@
 		EF35CB90163ECDA2002243AA /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF35CB8F163ECDA2002243AA /* Hypno@2x.png */; };
 		EF35CB93163ECDDA002243AA /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = EF35CB91163ECDDA002243AA /* Hypno.png */; };
 		EF35CB94163ECDDA002243AA /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = EF35CB92163ECDDA002243AA /* Time.png */; };
+		EF35CB9A163EE0B8002243AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF35CB99163EE0B8002243AA /* MapKit.framework */; };
+		EF35CB9D163EE0F7002243AA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF35CB9C163EE0F7002243AA /* MapViewController.m */; };
 		EF4DE68A163DB8A800B71754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DE689163DB8A800B71754 /* UIKit.framework */; };
 		EF4DE68C163DB8A800B71754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DE68B163DB8A800B71754 /* Foundation.framework */; };
 		EF4DE68E163DB8A800B71754 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DE68D163DB8A800B71754 /* CoreGraphics.framework */; };
@@ -31,6 +33,9 @@
 		EF35CB8F163ECDA2002243AA /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
 		EF35CB91163ECDDA002243AA /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
 		EF35CB92163ECDDA002243AA /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		EF35CB99163EE0B8002243AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF35CB9B163EE0F7002243AA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EF35CB9C163EE0F7002243AA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		EF4DE685163DB8A800B71754 /* HypnoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4DE689163DB8A800B71754 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF4DE68B163DB8A800B71754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF35CB9A163EE0B8002243AA /* MapKit.framework in Frameworks */,
 				EF4DE68A163DB8A800B71754 /* UIKit.framework in Frameworks */,
 				EF4DE68C163DB8A800B71754 /* Foundation.framework in Frameworks */,
 				EF4DE68E163DB8A800B71754 /* CoreGraphics.framework in Frameworks */,
@@ -64,6 +70,8 @@
 		EF4DE67A163DB8A800B71754 = {
 			isa = PBXGroup;
 			children = (
+				EF35CB9B163EE0F7002243AA /* MapViewController.h */,
+				EF35CB9C163EE0F7002243AA /* MapViewController.m */,
 				EF35CB8C163ECD61002243AA /* Time@2x.png */,
 				EF35CB8F163ECDA2002243AA /* Hypno@2x.png */,
 				EF35CB91163ECDDA002243AA /* Hypno.png */,
@@ -92,6 +100,7 @@
 		EF4DE688163DB8A800B71754 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF35CB99163EE0B8002243AA /* MapKit.framework */,
 				EF4DE689163DB8A800B71754 /* UIKit.framework */,
 				EF4DE68B163DB8A800B71754 /* Foundation.framework */,
 				EF4DE68D163DB8A800B71754 /* CoreGraphics.framework */,
@@ -193,6 +202,7 @@
 				EF4DE6A2163DB8E700B71754 /* HypnosisViewController.m in Sources */,
 				EF4DE6B1163DBA2C00B71754 /* HypnosisView.m in Sources */,
 				EF35CB8A163EC45F002243AA /* TimeViewController.m in Sources */,
+				EF35CB9D163EE0F7002243AA /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
